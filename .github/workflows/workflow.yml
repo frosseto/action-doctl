@@ -69,7 +69,7 @@ jobs:
       - name: Install doctl
         uses: ./
         with:
-          token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
+          token: dop_v1_bf39786c8f03635b00192839dd2e95351aaf395768ca1ef7f27c78d9ce3dc8e7
           version: 1.38.0
 
       - name: Verify installation of correct version
